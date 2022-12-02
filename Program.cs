@@ -23,7 +23,7 @@
                 {
                     if (round.Item1 == "A")
                     {
-                        totalPoints += 4;
+                        totalPoints += 3;
                     }
                     else if (round.Item1 == "B")
                     {
@@ -31,14 +31,14 @@
                     }
                     else
                     {
-                        totalPoints += 7;
+                        totalPoints += 2;
                     }
                 }
                 else if (round.Item2 == "Y")
                 {
                     if (round.Item1 == "A")
                     {
-                        totalPoints += 8;
+                        totalPoints += 4;
                     }
                     else if (round.Item1 == "B")
                     {
@@ -46,14 +46,14 @@
                     }
                     else
                     {
-                        totalPoints += 2;
+                        totalPoints += 6;
                     }
                 }
                 else
                 {
                     if (round.Item1 == "A")
                     {
-                        totalPoints += 3;
+                        totalPoints += 8;
                     }
                     else if (round.Item1 == "B")
                     {
@@ -61,7 +61,7 @@
                     }
                     else
                     {
-                        totalPoints += 6;
+                        totalPoints += 7;
                     }
                 }
             }
